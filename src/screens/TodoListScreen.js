@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import TodoList from './TodoList';
-import TodoItem from './TodoItem';
+import TodoList from '../components/TodoList';
+import TodoItem from '../components/TodoItem';
 
 const TodoListScreen = ({ navigation }) => {
   const [todos, setTodos] = useState([
